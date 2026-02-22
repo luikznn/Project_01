@@ -1,26 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-.arimo-uniquifier {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-
 body {
-    font-family: 'nunito';
-    margin: 0;
     padding: 0;
-    text-align: center;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    background-image: url("assets/Design\ sem\ nome\ \(4\).png");
+    background-position: 0 -120px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.menu {
+header div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    gap: 20px;
-    font-family: 'arimo';
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 360px;
+    justify-content: space-between;
+    width: 600px;
 }
-
+img {
+    width: 30px;
+    height: auto;
+}
+a {
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top:8px ;
+}
+.contact {
+    position: absolute;
+    right: 120px;
+    top: 50px;
+    color: #ffe5ad;
+    font-weight: 700;
+}
+.contact2 {
+    position: absolute;
+    right: 120px;
+    top: 28px;
+    color: #ffe5ad;
+    font-weight: 700;
+}
+main {
+    width: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    font-weight: 100;
+}
+h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 100;
+}
+p {
+    color: aliceblue;
+    font-size: 20px;
+}
